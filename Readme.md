@@ -119,5 +119,3 @@ The framework covers a comprehensive set of E-commerce functionalities, segregat
 * ✅ **Thread-Safe Implementation**: Uses **ThreadLocal** in `DriverFactory` for parallel test execution stability.
 * ✅ **Resource Management**: Efficient handling of browser instances and test resources.
 ```
-
-![report](https://github.com/AkshitaSrivastava2509/AutomationPractice/blob/0098829fe96fb1110471eb0817e4b233d8c17b48/ExtentReport.png)
