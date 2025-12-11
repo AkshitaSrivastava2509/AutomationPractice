@@ -44,7 +44,7 @@ This is a **production-ready** test automation framework designed for E-commerce
 
 The project follows a standard, modular structure for clarity and maintainability:
 
-![image alt] (https://github.com/AkshitaSrivastava2509/AutomationPractice/blob/6e51530c5ec3f0c3a11f3e0700c983f54a838e7b/projectStructure.png)
+![ProjectStructure](https://github.com/AkshitaSrivastava2509/AutomationPractice/blob/6e51530c5ec3f0c3a11f3e0700c983f54a838e7b/projectStructure.png)
 
 
 ## 🧪 5. Test Scenarios Covered
