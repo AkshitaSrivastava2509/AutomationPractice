@@ -120,6 +120,6 @@ The framework covers a comprehensive set of E-commerce functionalities, segregat
 * ✅ **Resource Management**: Efficient handling of browser instances and test resources.
 ```
 
-![ExtentReport](https://github.com/AkshitaSrivastava2509/AutomationPractice/blob/098c3636dc52405674c87fd3cfa635bd05736909/ExtentReport.png)
+![ExtentReport](https://github.com/AkshitaSrivastava2509/AutomationPractice/blob/master/ExtentReport.png)
 
 
