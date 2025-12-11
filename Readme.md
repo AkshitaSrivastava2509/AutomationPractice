@@ -1,4 +1,3 @@
-
 # 🚀 E-commerce Test Automation Framework: AutomationPractice 🛒
 
 A professional, enterprise-level Test Automation Framework for E-commerce testing, built using **Selenium WebDriver**, **Java**, **Cucumber BDD**, **TestNG**, **Page Object Model**, and **Extent Reports**.
@@ -120,3 +119,10 @@ The framework covers a comprehensive set of E-commerce functionalities, segregat
 * ✅ **Thread-Safe Implementation**: Uses **ThreadLocal** in `DriverFactory` for parallel test execution stability.
 * ✅ **Resource Management**: Efficient handling of browser instances and test resources.
 ```
+
+### REPORT
+
+ExtentReport-
+![Report](https://github.com/AkshitaSrivastava2509/AutomationPractice/blob/f2274565c95da2a44027623e6cc6e11eed8d868b/ExtentReport.png)
+
+![Report](https://github.com/AkshitaSrivastava2509/AutomationPractice/blob/f2274565c95da2a44027623e6cc6e11eed8d868b/PdfReprt.png)
