@@ -123,6 +123,4 @@ The framework covers a comprehensive set of E-commerce functionalities, segregat
 ### REPORT
 
 ExtentReport-
-![Report](https://github.com/AkshitaSrivastava2509/AutomationPractice/blob/f2274565c95da2a44027623e6cc6e11eed8d868b/ExtentReport.png)
-
-![Report](https://github.com/AkshitaSrivastava2509/AutomationPractice/blob/f2274565c95da2a44027623e6cc6e11eed8d868b/PdfReprt.png)
+![Report](https://github.com/AkshitaSrivastava2509/AutomationPractice/blob/26c63f0873d858a6a29b9dcd6da93dc12ec637d6/PdfReprt.png)
