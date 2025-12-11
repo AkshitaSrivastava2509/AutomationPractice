@@ -39,11 +39,16 @@ This is a **production-ready** test automation framework designed for E-commerce
 
 ---
 
-## 📁 4. Project Structure (POM)
+## 📁 4. Project Structure (POM) And Extent Report
 
 The project follows a standard, modular structure for clarity and maintainability:
 
 ![ProjectStructure](https://github.com/AkshitaSrivastava2509/AutomationPractice/blob/6e51530c5ec3f0c3a11f3e0700c983f54a838e7b/projectStructure.png)
+
+## Extent Report
+![Report](https://github.com/AkshitaSrivastava2509/AutomationPractice/blob/f2274565c95da2a44027623e6cc6e11eed8d868b/ExtentReport.png)
+
+
 
 
 ## 🧪 5. Test Scenarios Covered
