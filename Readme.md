@@ -44,7 +44,28 @@ This is a **production-ready** test automation framework designed for E-commerce
 
 The project follows a standard, modular structure for clarity and maintainability:
 
-
+AutomationPractice/
+│
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   ├── pages/                    \# 📄 All Page Object classes (e.g., HomePage, LoginPage)
+│   │   │   ├── factory/                  \# ⚙️ Base classes, including DriverFactory for central driver management
+│   │   │   └── utils/                    \# 💡 Utility classes (ConfigReader, GenericUtils for reusable methods)
+│   │
+│   └── test/
+│       ├── java/
+│       │   ├── runners/                  \# 🏃 Test Runners (Main TestRunner, FailedTestRunner for re-runs)
+│       │   ├── stepdefinitions/          \# 🧩 Cucumber Step Definitions (e.g., LoginSteps, CartSteps)
+│       │   └── hooks/                    \# 🔗 Cucumber Hooks (Before/After test setup/teardown)
+│       │
+│       └── resources/
+│           └── config.properties         \# 🔧 Externalized Configuration file
+├── test-output/                        \# 📈 TestNG Reports (gitignored)
+├── test-report/                        \# 📊 Extent Reports (gitignored)
+├── test-screenshot/                    \# 📸 Screenshots captured on failure (gitignored)
+├── pom.xml                             \# Maven Build File
+└── README.md                           \# This documentation file
 
 ---
 

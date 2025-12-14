@@ -10,7 +10,7 @@ glue={"stepDefinitions","hooks"},
 plugin = {"pretty", "html:target/cucumber-report.html","json:target/cucumber-report.json",
         "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
         "rerun:target/failed_scenarios.txt"},
-monochrome = true)
+monochrome = true,tags = "@full")
 
 public class TestRunner extends AbstractTestNGCucumberTests {
 

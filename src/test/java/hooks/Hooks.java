@@ -28,9 +28,12 @@ public class Hooks {
     }
 
     @Before(order = 1)
-    public void  launchBrowser(){
-        String browserName = prop.getProperty("browser");
-        driver = DriverFactory.init_driver(browserName);
+    public void  launchBrowser() throws InterruptedException {
+        String browser_properties = prop.getProperty("browser");
+        String mavenBrowser = System.getProperty("browser");
+
+        String set_browser = mavenBrowser!=null ? mavenBrowser : browser_properties;
+        driver = DriverFactory.init_driver(set_browser);
         driver.get(prop.getProperty("qaUrl"));
     }
 

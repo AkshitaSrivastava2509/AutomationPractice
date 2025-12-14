@@ -6,16 +6,16 @@ Feature:  Verifying the Login Functionality
 
 
   Background:
-    Given User is on Automation Exercise LandingPage
+    Given user is on Automation Exercise LandingPage
     And user click on Signup Login button
 
-    @LoginTest
+  @LoginTest @smoke @full
   Scenario: Login with valid credentials
     Given user enter valid  email "cucumbertest@example.com" and password "test@123"
     When user click on Login button
     Then user should be logged in successfully and see Logged in as username
 
-      @LoginTest
+  @LoginTest @negative @full
     Scenario Outline: Login with invalid credentials
       Given user enter invalid <email> and <password>
       When user click on Login button
