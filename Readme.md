@@ -48,49 +48,25 @@ The project follows a standard, modular structure for clarity and maintainabilit
 ## Extent Report
 ![Report](https://github.com/AkshitaSrivastava2509/AutomationPractice/blob/9a975aa52f0afc4ed4be3011d59b14845cda89fb/test-report/ExtentReport.png)
 
-## PDF Report
 
-![Report](https://github.com/AkshitaSrivastava2509/AutomationPractice/blob/02a087595f8f199c9ae25746093e504cf50dec89/PdfReprt.png)
+## 🧪 5. ✅ Test Scenarios Covered
+## 🔐 Authentication & User Management
 
+1. User Signup with Existing Email Validation
+2. User Login with Valid and Invalid Credentials
+3. Delete Account & Validate Redirection
 
+## 🛒 Cart & Product Management
 
-## 🧪 5. Test Scenarios Covered
+1. Add Products to Cart and Verify Cart Persistence
+2. Remove Product from Cart
+3. Product Search, Add to Cart, and Verify Quantity
 
-The framework covers a comprehensive set of E-commerce functionalities, segregated by feature:
+## 💳 Checkout & Order Placement
 
-### 5.1. User Management 👤
+1. Place an Order — Register While Checkout (End-to-End Flow)
+2. Place an Order — Login Before Checkout5. Test Scenarios Covered
 
-| Feature | Scenario Description | Status | Tags |
-| :--- | :--- | :--- | :--- |
-| **Signup** | New user registration with valid data | ✅ Implemented | `@signup, @smoke` |
-| **Signup** | Validation for duplicate email submission | ✅ Implemented | `@signup, @negative` |
-| **Login** | Successful login with valid credentials | ✅ Implemented | `@login, @smoke` |
-| **Login** | Attempted login with invalid credentials | ✅ Implemented | `@login, @negative` |
-| **Login** | Attempted login with blank credentials | ✅ Implemented | `@login, @negative` |
-
-### 5.2. Shopping Cart Functionality 🛒
-
-| Feature | Scenario Description | Status | Tags |
-| :--- | :--- | :--- | :--- |
-| **Cart** | Add a single product to the cart | ✅ Implemented | `@cart, @smoke` |
-| **Cart** | Add multiple different products to cart | ✅ Implemented | `@cart, @regression` |
-| **Cart** | Remove a product from the cart | 🔄 In Progress | `@cart, @regression` |
-| **Cart** | Update an existing product's quantity | 🔄 In Progress | `@cart, @regression` |
-
-### 5.3. Product Management & Search 🔍
-
-| Feature | Scenario Description | Status | Tags |
-| :--- | :--- | :--- | :--- |
-| **Search** | Search for a specific product by name | 🔄 In Progress | `@search, @smoke` |
-| **Search** | Searching with a query that yields no results | 🔄 In Progress | `@search, @negative` |
-| **Filter** | Filter products based on category | 🔄 In Progress | `@filter, @regression` |
-| **Filter** | Filter products within a specific price range | 🔄 In Progress | `@filter, @regression` |
-
-**Legend:**
-* **✅ Implemented**: Test scenario is fully implemented and running.
-* **🔄 In Progress**: Scenario is planned or currently under development.
-
----
 
 ## ✨ 6. Framework Features Deep Dive
 
