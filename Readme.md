@@ -46,7 +46,7 @@ The project follows a standard, modular structure for clarity and maintainabilit
 ![ProjectStructure](https://github.com/AkshitaSrivastava2509/AutomationPractice/blob/6e51530c5ec3f0c3a11f3e0700c983f54a838e7b/projectStructure.png)
 
 ## Extent Report
-![Report](https://github.com/AkshitaSrivastava2509/AutomationPractice/blob/f2274565c95da2a44027623e6cc6e11eed8d868b/ExtentReport.png)
+![Report](https://github.com/AkshitaSrivastava2509/AutomationPractice/blob/9a975aa52f0afc4ed4be3011d59b14845cda89fb/test-report/ExtentReport.png)
 
 ## PDF Report
 
